@@ -58,6 +58,4 @@ new_paragraph = new_document.add_paragraph('New paragraph with different font an
 new_run = new_paragraph.runs[0]
 new_run.font.name = 'Times New Roman'
 new_run.font.size = Pt(14)
-
-# Сохранение нового документа
 new_document.save('new_document.docx')
